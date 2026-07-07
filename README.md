@@ -38,7 +38,7 @@ This project was created for the **SkillCraft Technology Software Engineering In
 ## 📂 Folder Structure
 
 ```
-Temperature-Converter
+SCT_SD_Task1
 │
 ├── index.html
 ├── style.css
@@ -62,11 +62,13 @@ Temperature-Converter
 
 ### Light Mode
 
-(Add screenshot here)
+<img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/18b9643e-2907-464e-b7bf-73a24ea4704a" />
+
 
 ### Dark Mode
 
-(Add screenshot here)
+<img width="601" height="494" alt="image" src="https://github.com/user-attachments/assets/edd009cc-4883-491f-b394-d0b9b3dcf600" />
+
 
 ---
 
@@ -83,6 +85,7 @@ Temperature-Converter
 
 ## 👩‍💻 Developed By
 
-**Your Name**
+**T.Gowri Devi**
+Live link: https://gowridevi09.github.io/SCT_SD_Task1/
 
 For the SkillCraft Technology Internship.
