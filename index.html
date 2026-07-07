@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter | SkillCraft Internship</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Theme Button -->
+    <button id="themeBtn" class="theme-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container">
+
+        <h1>
+            🌡 Temperature Converter
+        </h1>
+
+        <p class="subtitle">
+            Convert temperatures instantly between Celsius,
+            Fahrenheit and Kelvin.
+        </p>
+
+        <div class="card">
+
+            <label>Temperature</label>
+
+            <input
+                type="number"
+                id="temperature"
+                placeholder="Enter temperature">
+
+            <label>From</label>
+
+            <select id="fromUnit">
+
+                <option value="C">Celsius (°C)</option>
+
+                <option value="F">Fahrenheit (°F)</option>
+
+                <option value="K">Kelvin (K)</option>
+
+            </select>
+
+            <label>To</label>
+
+            <select id="toUnit">
+
+                <option value="F">Fahrenheit (°F)</option>
+
+                <option value="C">Celsius (°C)</option>
+
+                <option value="K">Kelvin (K)</option>
+
+            </select>
+
+            <div class="button-group">
+
+                <button id="convertBtn">
+                    <i class="fas fa-calculator"></i>
+                    Convert
+                </button>
+
+                <button id="swapBtn">
+                    <i class="fas fa-right-left"></i>
+                    Swap
+                </button>
+
+            </div>
+
+            <div class="button-group">
+
+                <button id="copyBtn">
+                    <i class="fas fa-copy"></i>
+                    Copy
+                </button>
+
+                <button id="clearBtn">
+                    <i class="fas fa-trash"></i>
+                    Reset
+                </button>
+
+            </div>
+
+            <div class="result-box">
+
+                <h3>Result</h3>
+
+                <p id="result">
+                    -- 
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- History -->
+
+        <div class="history-card">
+
+            <div class="history-top">
+
+                <h2>
+                    Conversion History
+                </h2>
+
+                <button id="deleteHistory">
+                    Clear History
+                </button>
+
+            </div>
+
+            <ul id="historyList">
+
+            </ul>
+
+            <button id="downloadCSV">
+
+                <i class="fas fa-download"></i>
+
+                Download CSV
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Toast -->
+
+    <div id="toast">
+        Copied Successfully
+    </div>
+
+    <!-- Loader -->
+
+    <div id="loader">
+
+        <div class="spinner">
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        Designed for SkillCraft Technology Internship ❤️
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
